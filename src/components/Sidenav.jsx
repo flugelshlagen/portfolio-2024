@@ -33,6 +33,11 @@ const Sidenav = () => {
                 </div>
             )
         }
+        <div className='md:flex hidden fixed top-[2%] right-[5%] gap-10'>
+            <div><a href='#main' className='hover:underline-offset-4 hover:underline'>Home</a></div>
+            <div><a href='#projects' className='hover:underline-offset-4 hover:underline'>Projects</a></div>
+            <div><a href='#about' className='hover:underline hover:underline-offset-4'>About</a></div>
+        </div>
     </div>
   )
 }
