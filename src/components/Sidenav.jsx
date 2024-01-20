@@ -8,7 +8,7 @@ const Sidenav = () => {
         setNav(!nav);
     }
   return (
-    <div>
+    <div className='w-[100%] h-[52px] bg-white fixed top-0 z-[1]'>
         <AiOutlineMenu size={20} onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden hover:animate-pulse'/>  
         {
             nav==true ? (
