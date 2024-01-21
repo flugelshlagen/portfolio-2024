@@ -34,9 +34,9 @@ const Sidenav = () => {
             )
         }
         <div className='md:flex hidden fixed top-[2%] right-[5%] gap-10'>
-            <div><a href='#main' className='hover:underline-offset-4 hover:underline'>Home</a></div>
-            <div><a href='#projects' className='hover:underline-offset-4 hover:underline'>Projects</a></div>
-            <div><a href='#about' className='hover:underline hover:underline-offset-4'>About</a></div>
+            <div><a href='#main' className='relative transition-all duration-300 before:absolute before:left-0 before:content-[""] before:bottom-[-5px] before:w-0 before:h-[2px] before:opacity-0 before:transition-all before:duration-300 before:bg-black hover:before:w-full hover:before:opacity-100'>Home</a></div>
+            <div><a href='#projects' className='relative transition-all duration-300 before:absolute before:content-[""] before:bottom-[-5px] before:left-0 before:w-0 before:h-[2px] before:opacity-0 before:transition-all before:duration-300 before:bg-black hover:before:w-full hover:before:opacity-100'>Projects</a></div>
+            <div><a href='#about' className='relative transition-all duration-300 before:absolute before:content-[""] before:bottom-[-5px] before:left-0 before:w-0 before:h-[2px] before:opacity-0 before:transition-all before:duration-300 before:bg-black hover:before:w-full hover:before:opacity-100'>About</a></div>
         </div>
     </div>
   )
