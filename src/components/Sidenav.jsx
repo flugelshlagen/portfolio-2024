@@ -8,12 +8,12 @@ const Sidenav = () => {
         setNav(!nav);
     }
   return (
-    <div className='w-[100%] h-[52px] bg-white fixed top-0 z-[1]'>
+    <div className='w-[100%] h-[53px] bg-white fixed top-0 z-[1] border-b border-black'>
         <AiOutlineMenu size={20} onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden hover:animate-pulse'/>  
         {
             nav==true ? (
                 <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
-                    <a href="#main" className='w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                    <a onClick={handleNav} href="#main" className='w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <AiOutlineHome size={20}/>
                         <span className='pl-4'>Home</span>
                     </a>
