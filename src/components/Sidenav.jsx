@@ -7,8 +7,12 @@ const Sidenav = () => {
     const handleNav = () =>{
         setNav(!nav);
     }
+
   return (
     <div className='w-[100%] h-[53px] bg-white fixed top-0 z-[1] border-b border-black'>
+        <div>
+            <a href="#main" className='font-montserrat items-center relative top-3 left-4'><span className='text-xl'>MIN</span></a>
+        </div>
         <AiOutlineMenu size={20} onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden hover:animate-pulse'/>  
         {
             nav==true ? (
