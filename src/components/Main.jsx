@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import image1 from '../assets/img1.png';
-import image2 from '../assets/img2.png';
-import image3 from '../assets/img3.png';
+import image2 from '../assets/img2-1.png';
+import image3 from '../assets/img3-1.png';
 
 const Main = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -29,7 +29,7 @@ const Main = () => {
   const dynamicClasses = (slideIndex) => {
     switch (slideIndex) {
       case 0:
-        return 'object-[90%] md:object-right';
+        return 'object-[90%] md:object-right lg:object-center';
       case 1:
         return 'object-[50%] md:object-center';
       case 2:
