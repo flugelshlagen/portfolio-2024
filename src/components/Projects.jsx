@@ -14,7 +14,7 @@ const data = [
 ]
 const Projects = () => {
   return (
-    <div id="projects" className='max-w-[1040px] m-auto p-4 py-20'>
+    <div id="projects" className='flex justify-center items-center max-w-[1040px] m-auto mt-[0] relative top-[80px]'>
         <h1 className='text-center'>Projects</h1>
     </div>
   )
