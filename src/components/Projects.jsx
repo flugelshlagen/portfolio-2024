@@ -14,7 +14,7 @@ const data = [
 ]
 const Projects = () => {
   return (
-    <div id="projects" className='flex justify-center items-center max-w-[1040px] m-auto mt-[0] relative top-[80px]'>
+    <div id="projects"> 
         <h1 className='text-center'>Projects</h1>
     </div>
   )

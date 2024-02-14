@@ -19,7 +19,7 @@ const ImageCarousel = ({ images, text }) => {
 
     return (
         <>
-            <div id="main" className="flex items-center justify-center"> 
+            <div className="flex items-center justify-center"> 
                 <button
                     onClick={goToPrevious}
                     className="p-4 bg-gray-200 rounded-l-lg hover:bg-gray-300 relative top-[45px]"
