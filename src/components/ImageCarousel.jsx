@@ -39,7 +39,7 @@ const ImageCarousel = ({ images, text }) => {
                 </button>
             </div>
             <div className="flex justify-center items-center bg-white bg-opacity-50 w-[20%] h-[10vh] relative top-[60px] m-auto p-0 rounded-sm ">
-                <span className="relative text-3xl font-semibold content-right font-honk min-w-[250px]">
+                <span className="relative text-3xl font-semibold content-right font-honk min-w-[300px]">
                     {text[currentIndex]}
                 </span>
             </div>
