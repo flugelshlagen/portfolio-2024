@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Sidenav from './components/Sidenav'
-import Main from './components/Main'
+import Main2 from './components/Main2'
 import Projects from './components/Projects'
 import About from './components/About'
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Sidenav/>
-    <Main/>
+    <Main2/>
     <Projects/>
     <About/>
     </>
