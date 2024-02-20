@@ -22,7 +22,7 @@ const Main2 = () => {
 
   return (
     <div id="main" className="h-[200vh]">
-      <img src={img4} className="object-cover object-center w-full h-screen"/>
+      <img src={img4} className="object-cover object-center w-full h-screen" alt="cover-photo"/>
       <ImageCarousel images={images} text={text} />
     </div>
   );
