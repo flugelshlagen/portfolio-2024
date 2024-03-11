@@ -10,8 +10,6 @@ function App() {
     <>
     <Sidenav/>
     <Main/>
-    <Projects/>
-    <About/>
     </>
   )
 }
